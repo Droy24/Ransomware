@@ -19,7 +19,7 @@ void main()
 
 void ls_dir(char* intial_path)
 {
-	unsigned char key[] = "12345678901234561234567890123456"; //32 chars long
+	unsigned char key[] = "9876543210123456789123456123456"; //32 chars long
     unsigned char iv[] = "1234567890123456";//16 chars long
 	DIR* dir;
 	struct dirent *ent;
